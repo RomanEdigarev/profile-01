@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import avatar from '../../../img/avatar.png'
+import avatar from '../../../img/avatar-mini.png'
 
 type PropsType = {
     name: string

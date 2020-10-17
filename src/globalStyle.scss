@@ -4,6 +4,7 @@
   font-family: 'Open Sans', sans-serif;
   line-height: 1.4rem;
   font-size: 14px;
+  transition: all 0.3s ease-in-out;
 }
 
 *,
@@ -49,4 +50,16 @@ button,
 textarea,
 select {
   font: inherit;
+}
+
+button {
+  padding: 0;
+  background: none;
+  border: none;
+  color: inherit;
+  
+  &:hover {
+    cursor: pointer;
+  }
+  
 }

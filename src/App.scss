@@ -11,7 +11,7 @@
 }
 
 .app__header {
-
+  margin-bottom: 32px;
   &__profile-menu {
     display: flex;
     justify-content: flex-end;
@@ -20,10 +20,6 @@
 
     .notification-icon {
       margin-right: 25px;
-
-      &, path {
-        transition: all 0.3s ease-in-out;
-      }
 
       &:hover, &:hover svg {
         cursor: pointer;
@@ -72,6 +68,46 @@
 
 .app__content {
 
+  &__main-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 30px;
+    width: 100%;
+    height: 128px;
+    border-radius: 10px;
+    background: #1A78C2;
 
+    &__profile-name {
+      height: 100%;
+      display: flex;
+      align-items: center;
+
+      &__name {
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 42px;
+      }
+
+    }
+
+    &__button {
+      display: flex;
+      align-items: center;
+      text-transform: uppercase;
+      height: 50%;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+
+      &__icon {
+        margin-left: 8px;
+      }
+
+    }
+
+
+  }
 
 }
