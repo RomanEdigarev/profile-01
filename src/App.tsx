@@ -1,11 +1,16 @@
 import React from "react";
 import './App.scss';
+import ProfileMenu from "./components/Header/ProfileMenu/ProfileMenu";
+import Title from "./components/Header/Title/Title";
 
 
 function App() {
   return (
     <div className="app">
-      Privet
+      <div className="app__content">
+          <ProfileMenu/>
+          <Title/>
+      </div>
     </div>
   );
 }
