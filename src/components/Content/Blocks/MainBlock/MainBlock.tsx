@@ -1,6 +1,6 @@
 import React from 'react';
-import avatar from '../../../img/avatar-large.png'
-import icon from '../../../img/redactor-icon.png'
+import avatar from '../../../../img/avatar-large.png'
+import icon from '../../../../img/redactor-icon.png'
 
 const MainBlock = () => {
     return (
