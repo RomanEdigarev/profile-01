@@ -6,7 +6,7 @@ import FormBlock from "./Blocks/FormBlock/FormBlock";
 const Content = () => {
     return (
         <div className={'app__content'}>
-            {/*<MainBlock/>*/}
+            <MainBlock/>
             {/*<InfoBlock/>*/}
             <FormBlock/>
         </div>
